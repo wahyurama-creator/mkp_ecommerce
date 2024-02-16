@@ -76,7 +76,7 @@ class ProductItemCard extends StatelessWidget {
                         ),
                         verticalSpace(4),
                         Text(
-                          product.price.toIDRCurrencyFormat(),
+                          product.price.toCurrencyFormat(),
                           style: TextStyle(
                               color: Colors.grey.shade800, fontSize: 14),
                         ),

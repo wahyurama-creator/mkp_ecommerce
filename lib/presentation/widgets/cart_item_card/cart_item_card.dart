@@ -81,7 +81,7 @@ class CartItemCard extends StatelessWidget {
                         ),
                         verticalSpace(4),
                         Text(
-                          cartItem.product.price.toIDRCurrencyFormat(),
+                          cartItem.product.price.toCurrencyFormat(),
                           style: TextStyle(
                               color: Colors.grey.shade800, fontSize: 14),
                         ),

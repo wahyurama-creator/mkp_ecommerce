@@ -72,7 +72,7 @@ class ProductItemCardCheckout extends StatelessWidget {
                         ),
                       ),
                       child: Text(
-                        cart.product.price.toIDRCurrencyFormat(),
+                        cart.product.price.toCurrencyFormat(),
                         style: const TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class ProductItemCardCheckout extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Text(
-                  (cart.product.price * cart.quantity).toIDRCurrencyFormat(),
+                  (cart.product.price * cart.quantity).toCurrencyFormat(),
                   style: const TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,

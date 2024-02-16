@@ -58,7 +58,7 @@ class _ProductDetailPageState extends ConsumerState<ProductDetailPage> {
                     ),
                     verticalSpace(16),
                     Text(
-                      widget.product.price.toIDRCurrencyFormat(),
+                      widget.product.price.toCurrencyFormat(),
                       style: const TextStyle(
                         fontSize: 18,
                       ),
